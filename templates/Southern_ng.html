@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigeria south Initiative</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body style="background-color: #907D97;">
+    
+    <div class="section">
+        <div>
+            <h1 class="plus">Nigeria south Initiative:</h1>
+            <p>3 months/once a week</p>
+            <p>Our Nigeria south Initiative focus on:</p>
+            <ul>
+                <li>Assessing the current state of food security and nutrition</li>
+                <li>Developing strategies to improve access to nutritious and affordable food options</li>
+                <li>Creating partnerships with local food producers</li>
+            </ul>
+        </div>
+        <br/><br/><br/><br/>
+
+        <div class="image-container">
+            <h2>Yommy spaghety</h2>
+            <h3 style="font: bold;"> A plate is $5</h3>
+        <img class="spag" src="/static/spaghetti.jpg" alt="Western spaghetti">
+        <br/><br/><br/><br/>
+        <h2>Cheeps and Chicken</h2>
+        <h3 style="font: bold;"> A plate is $3</h3>
+        <img class="spag" src="/static/south1.jpg" alt="">
+        <br/><br/><br/><br/>
+        <h2>porridge</h2>
+        <h3 style="font: bold;"> A plate is $2</h3>
+        <img class="spag" src="/static/south2.jpg" alt="">
+        </div>
+        <div class="last">
+            <a href="{{ url_for('index') }}"><button class="btn">Back to Home</button></a>
+        </div>
+    </div>
+    
+</body>
+</html>
